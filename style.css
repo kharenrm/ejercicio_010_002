@@ -1,0 +1,53 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	height: 800px;
+}
+h2{
+	margin: 8px;
+	text-align: end;
+	color: #deb887;
+}
+
+.carta{
+	display: inline-block;
+    float: left;
+    background-color: #ff9800;
+    width: 300px;
+    height: 100%;
+}
+.restaurante{
+	background-color: #ece4e4;
+	height: 100%;
+}
+
+.mesa{
+	background-color: #795548;
+	display: inline-grid;
+	margin: 8px;
+	padding: 8px;
+}
+
+.mesa label{
+	color: white;
+	font-size: small;
+}
+
+.tabla_carta{
+	padding: 8px;
+    color: #faebd7;
+    border-style: double;
+    width: 80%;
+    margin: 22px;
+}
+
+.tabla_carta tr{
+	text-align: justify;
+}
+
+.titulo{
+	text-align: center;
+}
+
